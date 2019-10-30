@@ -1,0 +1,24 @@
+Main
+    Ball
+    List<Obstacle>
+    List<Target>
+
+
+Sprite - abstract
+    x position
+    y position
+    radius
+    color
+
+    collision()
+
+
+Ball extends Sprite
+    setSpeed()
+    getSpeed()
+
+
+Obstacle extends Sprite
+
+
+Target extends Sprite

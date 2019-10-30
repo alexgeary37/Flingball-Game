@@ -1,0 +1,97 @@
+Product backlog:
+
+list of releases:
+-----------------
+
+1. Plan design of program with pen and paper
+2. Layout set up for home screen
+3. Layout set up for game play screen
+4. Layout set up for scores screen
+5. Create classes
+6. Setup ball
+7. Implement button usage
+8. Setup onResume() and onPause()
+9. Implement ball usage
+10. Setup target
+11. Setup obstacles
+12. Implement ball/target collision
+13. Implement ball/obstacle collision
+14. Setup time limit for game
+15. Implement obstacle movement
+16. Implement target movement
+
+
+    Iteration backlog:
+    ------------------
+
+    1.
+        a) Work out classes - Estimated time: 20 minutes - Estimated lines: NA
+
+    2.
+        a) Make layout immersive sticky and hide, navigation, status and action bars - Estimated time: 5 minutes - Estimated lines: 5
+        b) Make the screen stay on - Estimated time: 2 minutes - Estimated lines: 1
+        c) Display name of game - Estimated time: 5 minutes - Estimated lines: 15
+        d) Display Developer names - Estimated time: 5 minutes - Estimated lines: 25
+        e) Add 'Start Play' button with XML - Estimated time: 5 minutes - Estimated lines: 15
+        f) Enhance the look of home screen if time permits - Estimated time: 30 minutes - Estimated lines:
+
+    3.
+        a) Make layout immersive sticky and hide, navigation, status and action bars - Estimated time: 2 minutes - Estimated lines: 5
+        b) Make the screen stay on - Estimated time: 1 minutes - Estimated lines: 1
+
+    4.
+        a) Make layout immersive sticky and hide, navigation, status and action bars - Estimated time: 2 minutes - Estimated lines: 5
+        b) Make the screen stay on - Estimated time: 1 minutes - Estimated lines: 1
+        c) Display scores title at top of screen - Estimated time: 5 minutes
+        d) Display fields for top 5 high scores - Estimated time: 10 minutes
+
+    5.
+        a) Create general Sprite class called - Estimated time: 20 minutes - Estimated lines: 20
+        b) Create Ball subclass - Estimated time: 20 minutes - Estimated lines: 25
+        c) Create Target subclass - Estimated time: 20 minutes - Estimated lines: 25
+        d) Create Obstacle subclass - Estimated time: 20 minutes Estimated lines: 25
+
+    6.
+        a) Display ball - Estimated time: 45 - Estimated lines: 25
+        b) Implement on touch method and test with gesture - Estimated time: 60 - Estimated lines: 30
+
+    7.
+        a) Make start button go to game play screen when clicked - Estimated time: 20 - Estimated lines: 10
+
+    8.
+        a)
+
+    9.
+        a) Make ball fling - Estimated time: 120 - Estimated lines: 30
+        b) Give ball boundaries - Estimated time: 30 - Estimated lines: 15
+        c) Make sure ball can only be touched once - Estimated time: 30 - Estimated lines: 10
+        d) Make sure ball can't be dragged all the way to the target - Estimated time: 45 - Estimated lines: 10
+
+    10.
+        a) Display target - Estimated time: 15 - Estimated lines: 10
+
+    11.
+        a) Display obstacles - Estimated time: 15 - Estimated lines: 10
+
+    12.
+        a) Make objects notice hit - Estimated time: 10 - Estimated lines: 5
+        b) Display message on screen - Estimated time: 15 - Estimated lines: 10
+        c) Reset screen and positions of stuff - Estimated time: 15 - Estimated lines: 10
+
+    13.
+        a) Make objects notice hit - Estimated time: 10 - Estimated lines: 5
+        b)
+
+    14.
+        a) Setup timer - Estimated time: 15 - Estimated lines: 5
+        b) Reset game when time runs out - Estimated time: 15 - Estimated lines: 15
+
+    15.
+        a)
+
+    16.
+        a)
+
+
+    200.
+        a) Try different numbers of targets possibly or experiment with game play ideas

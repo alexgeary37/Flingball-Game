@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">flingBall</string>
+    <string name="developer_names">Developers: Alex Geary, Sam Terry</string>
+    <string name="start_button_text">Start</string>
+    <string name="scores_title">High Scores</string>
+    <string name="timerText">30</string>
+    <string name="gameOver">Game over</string>
+    <string name="score">score</string>
+    <string name="popup_button_home">Main menu</string>
+    <string name="popup_button_play">Play again</string>
+    <string name="highScore">High Score: </string>
+</resources>
