@@ -70,9 +70,9 @@ public class MainActivity extends AppCompatActivity {
             if (ball == null) {
                 Sprite.xMax = getWidth();
                 Sprite.yMax = getHeight();
-                obstacles.add(new Obstacle(getWidth() / 4, getHeight() / 3, 50));
-                target = new Target(getWidth() / 2, getHeight() / 8, 50);
-                ball = new Ball(getWidth() / 2, (getHeight() / 8) * 7, 50, target, getHeight());
+                obstacles.add(new Obstacle(getWidth() / 4, getHeight() / 3, getWidth() / 25));
+                target = new Target(getWidth() / 2, getHeight() / 8, getWidth() / 25);
+                ball = new Ball(getWidth() / 2, (getHeight() / 8) * 7, getWidth() / 25, target, getHeight());
             }
 
             // draw all sprite objects
@@ -89,10 +89,10 @@ public class MainActivity extends AppCompatActivity {
                 // add new obstacles at various times
                 if (score == 300 && !hasTwoObstacles) {
                     hasTwoObstacles = true;
-                    obstacles.add(new Obstacle((getWidth() / 4) * 3, (getHeight() / 3) * 2, 70));
+                    obstacles.add(new Obstacle((getWidth() / 4) * 3, (getHeight() / 3) * 2, getWidth() / 20));
                 } else if (score == 600 && !hasThreeObstacles) {
                     hasThreeObstacles = true;
-                    obstacles.add(new Obstacle(getWidth() / 4, getHeight() / 3, 60));
+                    obstacles.add(new Obstacle(getWidth() / 4, getHeight() / 3, getWidth() / 25));
                 }
 
                 target.remove();

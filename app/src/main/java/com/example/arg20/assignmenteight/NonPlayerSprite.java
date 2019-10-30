@@ -6,7 +6,7 @@ abstract class NonPlayerSprite extends Sprite {
 
     public NonPlayerSprite(float x, float y, int radius) {
         super(x, y, radius);
-        speed = rand.nextInt(10);
+        speed = rand.nextInt(8) + 2;
     }
 
     // default move method for non player sprites
